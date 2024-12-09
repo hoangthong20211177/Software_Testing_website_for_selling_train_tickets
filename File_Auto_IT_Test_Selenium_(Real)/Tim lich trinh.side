@@ -1,0 +1,217 @@
+{
+  "id": "d09f09a6-6ad2-4c78-b8a5-56a06f04426a",
+  "version": "2.0",
+  "name": "Tim lich trinh",
+  "url": "http://localhost/qltau2/qltau2/indextrangchu.php?trangchu=lichtrinh",
+  "tests": [{
+    "id": "f3e35d9c-020e-448d-a66c-768927149cc5",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "8784cec4-7295-4d45-9314-3d17b61e72f7",
+    "name": "Tim_lich_trinh_1",
+    "commands": [{
+      "id": "074b4453-ed39-4d97-b377-58863c5ef0db",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/indextrangchu.php?trangchu=lichtrinh",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c53aa12-a7f3-462f-9757-8d8d2e9822d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab4d07a2-4c02-4d6f-a571-6ccf0b4c8c9d",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb32de2-b9da-4ebc-aa8b-168e6420be71",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Tìm kiếm"
+    }, {
+      "id": "3555cafc-3f19-4556-92f0-a6ba1a52e6a6",
+      "comment": "",
+      "command": "//assertText",
+      "target": "Vui lòng điền vào trường này",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2f326e03-e08c-457e-be14-bfc1dafee65e",
+    "name": "Tim_lich_trinh_2",
+    "commands": [{
+      "id": "85fcd644-2fc5-4d83-9c77-7fcf07bfd70b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/indextrangchu.php?trangchu=lichtrinh",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ba81e29-6414-49ce-8545-9b4c8eca3311",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e36e0c56-51f2-45a5-8810-7c9030ebe1de",
+      "comment": "",
+      "command": "click",
+      "target": "name=keyword",
+      "targets": [
+        ["name=keyword", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='keyword']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b6adfdf-f670-49f7-96c8-3c2ec85c586a",
+      "comment": "",
+      "command": "type",
+      "target": "name=keyword",
+      "targets": [
+        ["name=keyword", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='keyword']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Hà Nội - Thanh Hóa"
+    }, {
+      "id": "6bb84683-d22e-47ee-8710-68bdf1a7ff53",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Tìm Kiếm"
+    }, {
+      "id": "52c1ee9c-37a2-4926-afcb-9c6e2a279dce",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=th:nth-child(2)",
+      "targets": [
+        ["css=th:nth-child(2)", "css:finder"],
+        ["xpath=//th[2]", "xpath:position"],
+        ["xpath=//th[contains(.,'Tên Lịch Trình')]", "xpath:innerText"]
+      ],
+      "value": "Tên Lịch Trình"
+    }, {
+      "id": "2056f832-588b-4d68-adf3-7b4c6ce1ea14",
+      "comment": "Có dữ liệu",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9786e057-8fff-4958-a451-bea3b40dbb2a",
+    "name": "Tim_lich_trinh_3",
+    "commands": [{
+      "id": "78cac0b5-bb14-4f87-8146-bf2a5b35c879",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/indextrangchu.php?trangchu=lichtrinh",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3474b622-6003-41f9-ab8e-e89a0d5daff3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93d1eabf-a397-474c-9d6a-bd7dcdecff83",
+      "comment": "",
+      "command": "click",
+      "target": "name=keyword",
+      "targets": [
+        ["name=keyword", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='keyword']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e67c40ad-18ec-4f75-a786-5a0b9d1a0240",
+      "comment": "",
+      "command": "type",
+      "target": "name=keyword",
+      "targets": [
+        ["name=keyword", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='keyword']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Hà Nội - Cà Mau"
+    }, {
+      "id": "5c6a6b4b-1f1a-4fe2-9260-f465b5b8cc6d",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Tìm kiếm"
+    }, {
+      "id": "e3c62731-7ae3-4218-9c85-ad36103c6e14",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": "Không có dữ liệu lịch trình. "
+    }, {
+      "id": "d0634307-c435-4f35-ad06-3bc0d111b7e9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[6]", "xpath:position"],
+        ["xpath=//div[contains(.,'không có dữ liệu lịch trình.')]", "xpath:innerText"]
+      ],
+      "value": "không có dữ liệu lịch trình."
+    }]
+  }],
+  "suites": [{
+    "id": "b0c6347d-51a8-4d20-b914-c9ff6ae4aded",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f3e35d9c-020e-448d-a66c-768927149cc5"]
+  }],
+  "urls": ["http://localhost/qltau2/qltau2/indextrangchu.php?trangchu=lichtrinh"],
+  "plugins": []
+}

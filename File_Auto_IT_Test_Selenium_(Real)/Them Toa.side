@@ -1,0 +1,655 @@
+{
+  "id": "9e5f8780-d0a5-4a26-a37a-2f945bd1df76",
+  "version": "2.0",
+  "name": "Thêm Toa",
+  "url": "http://localhost/qltau2/qltau2/admin/indexql.php?quanly=themtoa2",
+  "tests": [{
+    "id": "031641fc-6ff3-4b49-9434-a2bdf6d29485",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "5e244516-d7b4-4f39-8c5e-8001176526ad",
+    "name": "Them_Toa_1",
+    "commands": [{
+      "id": "8bb041ce-0e46-4679-aa19-0cbcf6343182",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/indexql.php?quanly=themtoa2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47b6b3e9-835c-4326-8d13-7dde628ea5a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "672d07b4-ca11-44f4-b95d-1b36dcd60b6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16595c5e-baf3-4be3-9b2a-8e0becefd37b",
+      "comment": "",
+      "command": "type",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Toa 303"
+    }, {
+      "id": "070dad37-e152-4c77-a1c1-9992cb79ca3a",
+      "comment": "",
+      "command": "click",
+      "target": "id=matau",
+      "targets": [
+        ["id=matau", "id"],
+        ["name=matau", "name"],
+        ["css=#matau", "css:finder"],
+        ["xpath=//select[@id='matau']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fdc8bff-87ec-4b55-931d-2f3643e1a4d4",
+      "comment": "",
+      "command": "select",
+      "target": "id=matau",
+      "targets": [],
+      "value": "label=Tàu 04"
+    }, {
+      "id": "63bac1d1-6ff4-4cf7-b2af-d91914b0c006",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Thêm Toa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Thêm Toa"
+    }, {
+      "id": "c5ba5db6-9f78-4049-b06d-a3abd65a84cd",
+      "comment": "",
+      "command": "//assertText",
+      "target": "Vui lòng nhập số",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f7e4bcf2-2fab-43d6-83aa-eb78b99a5304",
+    "name": "Them_toa_2",
+    "commands": [{
+      "id": "cf191e39-9213-4f26-ba65-77b0938ebd2f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/indexql.php?quanly=themtoa2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bab280c8-6aca-4c15-b726-29b5cb717451",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f47e80a-f36e-46ac-86d4-39b09270d9cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccd481c1-1bd4-4813-bc7f-0c3a190075df",
+      "comment": "",
+      "command": "type",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "555"
+    }, {
+      "id": "73d96262-fabc-4f42-89ed-9e6c70bea944",
+      "comment": "",
+      "command": "click",
+      "target": "id=matau",
+      "targets": [
+        ["id=matau", "id"],
+        ["name=matau", "name"],
+        ["css=#matau", "css:finder"],
+        ["xpath=//select[@id='matau']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90673a52-e79b-41be-a9bf-b18ed4b5ccb3",
+      "comment": "",
+      "command": "select",
+      "target": "id=matau",
+      "targets": [],
+      "value": "label=Tàu 04"
+    }, {
+      "id": "d65dc467-ea83-4f8c-a8ea-f59397203584",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Thêm Toa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Thêm Toa"
+    }, {
+      "id": "6d5a87c6-b0d4-4157-9ae0-100564543853",
+      "comment": "",
+      "command": "//assertText",
+      "target": "Vui lòng điền vào trường này.",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4eb4adfe-35f7-40d3-be05-41706b8ee858",
+    "name": "Them_Toa_3",
+    "commands": [{
+      "id": "4a91de22-ee94-4592-bc8a-22c6bd7a222c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/indexql.php?quanly=themtoa2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec0f75ac-e633-43c3-9965-0bc5f5ef037b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd0a4749-0204-47c8-a02e-86c58ca81eee",
+      "comment": "",
+      "command": "click",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d83714db-bb2f-4c72-b7eb-ea4e079071b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "543"
+    }, {
+      "id": "b7677e88-a508-4837-b25a-0c894da14c8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a73a33ec-3ac1-4aa4-ac87-bb3fe00777d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Toa 543"
+    }, {
+      "id": "95d1e0a5-aeae-4181-921d-b9316cdad99c",
+      "comment": "",
+      "command": "click",
+      "target": "id=matau",
+      "targets": [
+        ["id=matau", "id"],
+        ["name=matau", "name"],
+        ["css=#matau", "css:finder"],
+        ["xpath=//select[@id='matau']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ab91834-6520-4e46-b71f-b1fa606bc4b5",
+      "comment": "",
+      "command": "select",
+      "target": "id=matau",
+      "targets": [],
+      "value": "label=Tàu 04"
+    }, {
+      "id": "16239689-ba58-47e5-a3ff-9b2050de4239",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Thêm Toa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Thêm Toa"
+    }, {
+      "id": "ca72a894-b542-4b3a-bde8-9af1e59f4ff3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": "Thêm Toa Thành Công."
+    }]
+  }, {
+    "id": "947077c9-1091-40ea-856a-dc00c8b8c4a5",
+    "name": "Them_Toa_4",
+    "commands": [{
+      "id": "a469ac84-03cc-49a0-b94f-b94b30256faf",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/indexql.php?quanly=themtoa2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f8a9742-6498-4b10-8c8c-159c03acf828",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8d52554-629f-485d-985a-9c6263174d1f",
+      "comment": "",
+      "command": "click",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2dd5e11-e628-42fd-9ee0-2c73c63c4586",
+      "comment": "",
+      "command": "type",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "543"
+    }, {
+      "id": "cf3b0f96-a820-4865-a4f4-e0ba54494f72",
+      "comment": "",
+      "command": "click",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4150ec-d76c-4902-9cc0-b04a5beba7a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Toa 543"
+    }, {
+      "id": "122a840a-f25b-43e9-aa45-c7de9d991ca7",
+      "comment": "",
+      "command": "click",
+      "target": "id=matau",
+      "targets": [
+        ["id=matau", "id"],
+        ["name=matau", "name"],
+        ["css=#matau", "css:finder"],
+        ["xpath=//select[@id='matau']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ddd0b26-d301-4f6c-b231-791315ae5cbc",
+      "comment": "",
+      "command": "select",
+      "target": "id=matau",
+      "targets": [],
+      "value": "label=Tàu 04"
+    }, {
+      "id": "804d9ec1-6e4e-4df5-a009-84b18e9997d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Thêm Toa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Thêm Toa"
+    }, {
+      "id": "4359bd44-550b-4944-9027-0b0c6b102647",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": "Lỗi: Trùng mã toa, không thể thêm."
+    }]
+  }, {
+    "id": "989a6bce-0de9-41ab-ade7-2a82413b3759",
+    "name": "Them_Toa_5",
+    "commands": [{
+      "id": "50fe40cb-1a9f-4cd2-8a61-276ce7b5a306",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/indexql.php?quanly=themtoa2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "661157e5-a709-40a8-a965-5b88ccd042f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2612f853-2477-418a-83c2-bb5f48aa4a73",
+      "comment": "",
+      "command": "click",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c53bffe6-28fc-47ea-a31a-9aca6c833022",
+      "comment": "",
+      "command": "type",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-88"
+    }, {
+      "id": "7e6d7d3b-530c-4474-adbb-8c3f0d6c4b4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c106b974-5844-4f68-94d1-a8329513396c",
+      "comment": "",
+      "command": "type",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "543"
+    }, {
+      "id": "fc53d749-f24f-446c-a73c-f21cd55b1e03",
+      "comment": "",
+      "command": "click",
+      "target": "id=matau",
+      "targets": [
+        ["id=matau", "id"],
+        ["name=matau", "name"],
+        ["css=#matau", "css:finder"],
+        ["xpath=//select[@id='matau']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c8f5668-08ab-4c0c-87d9-7d9338d1326c",
+      "comment": "",
+      "command": "select",
+      "target": "id=matau",
+      "targets": [],
+      "value": "label=Tàu 04"
+    }, {
+      "id": "a0a0ab2e-2304-4412-991a-7454b1ba635d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Thêm Toa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Thêm Toa"
+    }, {
+      "id": "d87861f6-adf2-4a6f-868a-a91339f0e732",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "'Mã toa' chỉ được phép chứa các số từ 0 đến 9.",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ad1895f1-7634-4641-a9b2-c8eadee84570",
+    "name": "Them_Toa_6",
+    "commands": [{
+      "id": "b96b36b4-2e4c-477f-ad45-614f1b67bf96",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/indexql.php?quanly=themtoa2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9b5fbd0-cb3f-41ce-998c-1a60a0a8a40a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x719",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed972c7d-ed78-4e02-93af-1b04db18f0fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77a82a8c-97ec-4820-9444-c70a3551d6b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=matoa",
+      "targets": [
+        ["id=matoa", "id"],
+        ["name=matoa", "name"],
+        ["css=#matoa", "css:finder"],
+        ["xpath=//input[@id='matoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "965448"
+    }, {
+      "id": "9560bb6a-d5d8-4462-85a9-fcd81f0c379d",
+      "comment": "",
+      "command": "click",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55e7afa4-ecac-4536-9930-e9a2c3a7f0b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=tentoa",
+      "targets": [
+        ["id=tentoa", "id"],
+        ["name=tentoa", "name"],
+        ["css=#tentoa", "css:finder"],
+        ["xpath=//input[@id='tentoa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Toa 543"
+    }, {
+      "id": "010e1f89-c938-44ba-95d6-c803511704f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=matau",
+      "targets": [
+        ["id=matau", "id"],
+        ["name=matau", "name"],
+        ["css=#matau", "css:finder"],
+        ["xpath=//select[@id='matau']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60fd9a5b-4431-466c-b156-1ed2b31342dc",
+      "comment": "",
+      "command": "select",
+      "target": "id=matau",
+      "targets": [],
+      "value": "label=Tàu 04"
+    }, {
+      "id": "39ae4b88-2ce2-4feb-9485-0601f0e051d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Thêm Toa']", "xpath:attributes"],
+        ["xpath=//form[@id='myForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Thêm Toa"
+    }, {
+      "id": "65b528e0-ccbc-45f0-ae78-9536adad3fd8",
+      "comment": "",
+      "command": "//assertText",
+      "target": "Vui lòng chọn một giá trị không lớn hơn 99999",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e10071f3-a061-4823-bde2-567226d9b56a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["031641fc-6ff3-4b49-9434-a2bdf6d29485"]
+  }],
+  "urls": ["http://localhost/qltau2/qltau2/admin/indexql.php?quanly=themtoa2"],
+  "plugins": []
+}

@@ -1,0 +1,368 @@
+{
+  "id": "c8f132ca-3a64-4403-ba8f-dd5caf46d9b6",
+  "version": "2.0",
+  "name": "Dang nhap",
+  "url": "http://localhost/qltau2/qltau2/admin/loginqt.php",
+  "tests": [{
+    "id": "2c08993f-ad72-464e-a35e-c38645857588",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "c07945b4-b1d7-437c-b982-c80f34edb139",
+    "name": "Dang_nhap_1",
+    "commands": [{
+      "id": "30af7068-8919-4cad-9581-f3cc7354fd5e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/loginqt.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7653bb85-b041-4f49-afdc-7476d4981b11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6354ce5a-f22a-4165-a773-5fa960dda276",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38aa5909-b56e-4cb1-bac5-ced162197b1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "adminqt"
+    }, {
+      "id": "53b8db6e-2db3-47f9-abef-cc9de2621365",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": "Đăng Nhập"
+    }, {
+      "id": "f30502b6-a4c4-4969-944c-84a6ae22d10a",
+      "comment": "",
+      "command": "//assertAlert",
+      "target": "Tên đăng nhập hoặc mật khẩu bạn không được để trống!",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d17dd302-e890-438f-9432-7534f19cd8cd",
+    "name": "Dang_nhap_2",
+    "commands": [{
+      "id": "448330b0-f4b9-4fed-b027-1da4df8c0692",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/loginqt.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e79e275-86b5-4efd-b5e4-5ffa5341ff85",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "266e9b1f-7552-4b5d-a08d-a28f30735b83",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=user", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "976e30ad-192d-41da-ab90-d1b9a68b4a0a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=user", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "adminqt"
+    }, {
+      "id": "66243e9b-726c-464e-95e7-9211bab86221",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": "Đăng Nhập"
+    }, {
+      "id": "ff5e69f2-f3d6-4cd8-b087-13abad21bf7e",
+      "comment": "",
+      "command": "//assertAlert",
+      "target": "Tên đăng nhập hoặc mật khẩu bạn không được để trống!",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cc17cb24-4a57-4b10-9ce5-4e17e01f5483",
+    "name": "Dang_nhap_3",
+    "commands": [{
+      "id": "1a455c5f-7e9e-49de-9f2e-8efd2ae9ef6f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/loginqt.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b448a5b-fba0-4268-b6f2-17400365bc56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f84a4391-fe69-48bc-8b22-71f68a93c74d",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=user", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26cfa306-3729-4cc9-89e8-df5177dd3d54",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=user", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "adminqt"
+    }, {
+      "id": "8827dcea-d059-4286-8933-d3fc1d9ef89b",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00bcc6df-70e7-4ce0-9773-be9d998f490c",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "adminqt"
+    }, {
+      "id": "00b83360-20f7-42b0-b393-3519e5a53997",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": "Đăng nhập"
+    }, {
+      "id": "79ed4ed7-892a-4f2a-a85f-ea066a0699bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Danh Sách Tàu",
+      "targets": [
+        ["linkText=Danh Sách Tàu", "linkText"],
+        ["css=.list-group:nth-child(2) > .list-group-item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(@href, 'indexql.php?quanly=dstau')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Danh Sách Tàu')]", "xpath:innerText"]
+      ],
+      "value": "Danh sách tàu"
+    }, {
+      "id": "e63551e2-886b-41a8-bce1-53e0544e64a4",
+      "comment": "Đã vào được trang quản trị",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "82e2e5be-26fe-42ca-a734-8c69f76ef5e1",
+    "name": "Dang_nhap_4",
+    "commands": [{
+      "id": "d0ebd15e-c7d6-4b36-ad7b-2856088cfb15",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/qltau2/qltau2/admin/loginqt.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52413b13-11e9-49c2-a2c1-c8b906d6b6a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "667x706",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "addc9440-e0bb-4cfd-b63b-2672439bbec4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài Khoản",
+      "targets": [
+        ["linkText=Tài Khoản", "linkText"],
+        ["css=.form-vertical > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài Khoản')]", "xpath:link"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tài Khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0e1fa35-f497-431a-9674-de0dd7842fca",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=user", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7433c87e-cce1-49fa-a16b-0a1df4385439",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["name=user", "name"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "adminqt"
+    }, {
+      "id": "7e68f15d-24cf-4a22-a27d-d1bd2a262406",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c83de60-c3ee-4fab-92dc-ba6f3040eef6",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bd64c37-2c42-4740-941d-7a605c085f37",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "33638838-c566-4e99-9b35-eb602044147a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": "Đăng Nhập"
+    }, {
+      "id": "f1e31996-c6c1-430e-9e2f-20558ad739e6",
+      "comment": "",
+      "command": "//assertText",
+      "target": "Tên đăng nhập hoặc mật khẩu không đúng",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4681068e-bc12-4f0f-9c53-ac92831419af",
+    "name": "Dang_nhap_5",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "f6bd26de-4be5-4747-a183-453dfbcf08f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2c08993f-ad72-464e-a35e-c38645857588"]
+  }],
+  "urls": ["http://localhost/qltau2/qltau2/admin/loginqt.php"],
+  "plugins": []
+}
